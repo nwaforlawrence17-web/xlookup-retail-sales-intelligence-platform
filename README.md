@@ -44,7 +44,7 @@ xlookup Retail_Sales_Project/
 ├── 📁 02_CLEANED_DATA/      # Target SalesTable and source for Dashboard
 ├── 📁 03_LOOKUP_TABLES/     # Product and Supplier reference files
 ├── 📁 04_REPORTS/           # QA Comparison & Pivot Insight summaries
-├── dashboard.py             # Main Streamlit application file
+├── streamlit_app.py         # Main Streamlit application file
 ├── requirements.txt         # Deployment dependencies
 └── README.md                # Project documentation (this file)
 ```
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 ### 2. Launch the Dashboard
 Run the following command in your terminal:
 ```bash
-streamlit run dashboard.py
+streamlit run streamlit_app.py
 ```
 
 ### 3. Portfolio Deployment
